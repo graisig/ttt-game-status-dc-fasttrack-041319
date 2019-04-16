@@ -50,7 +50,7 @@ def winner?(board)
   
   win_combination = won?(board)
   if win_combination.is_a? Array
-    #return win_combination[0]
+    return win_combination[0]
   else
     return nil
   end
