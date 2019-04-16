@@ -56,4 +56,4 @@ def winner?(board)
   end
   
 end
-winner?(board)
+puts winner?(board)
