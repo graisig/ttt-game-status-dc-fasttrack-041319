@@ -56,3 +56,4 @@ def winner?(board)
   end
   
 end
+puts winner?(board)
