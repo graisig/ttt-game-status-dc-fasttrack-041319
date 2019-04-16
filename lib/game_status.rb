@@ -30,7 +30,7 @@ def won?(board)
   end
 end
 
-board = ["X","X","X"," "," "," "," "," "," "]
+board = [" "," "," "," "," "," "," "," "," "]
 def full?(board)
 
   full_board = [0,1,2,3,4,5,6,7,8].all? {|index| position_taken?(board, index)}
