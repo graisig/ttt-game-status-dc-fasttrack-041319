@@ -46,7 +46,7 @@ def over?(board)
   return won?(board) || draw?(board) || full?(board)
 end
 
-def winner?(board)
+def winner(board)
   
   win_combination = won?(board)
   if win_combination.is_a? Array
@@ -56,4 +56,4 @@ def winner?(board)
   end
   
 end
-puts winner?(board)
+puts winner(board)
